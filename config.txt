@@ -1,0 +1,69 @@
+token = 
+
+owner = 512050560384368652
+
+prefix = 
+
+game = "DEFAULT"
+
+status = idle
+
+songinstatus=false
+
+altprefix = JBR
+
+success = "🎶"
+warning = "💡"
+error = "🚫"
+loading = "⌚"
+searching = "🔎"
+
+
+help = help
+
+npimages = true
+
+stayinchannel = true
+
+maxtime = 0
+
+playlistsfolder = "Playlists"
+
+updatealerts= false
+
+lyrics.default = "A-Z Lyrics"
+
+aliases {
+  // General commands
+  settings = [ status ]
+
+  // Music commands
+  lyrics = []
+  nowplaying = [ np, current ]
+  play = [p]
+  playlists = [ pls ]
+  queue = [ list ]
+  remove = [ delete, rem ]
+  scsearch = []
+  search = [ ytsearch ]
+  shuffle = []
+  skip = [ voteskip ]
+
+  // Admin commands
+  prefix = [ setprefix ]
+  setdj = [sdj]
+  settc = [stc]
+  setvc = [svc]
+
+  forceremove = [ forcedelete, modremove, moddelete, modelete ]
+  forceskip = [ modskip ]
+  movetrack = [ move ]
+  pause = [pa]
+  playnext = [pn]
+  repeat = [re]
+  skipto = [ jumpto ]
+  stop = [st]
+  volume = [ vol ]
+}
+
+eval=false
